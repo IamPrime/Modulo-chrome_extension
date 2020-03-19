@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Modulo Calculator",
+    "version": "2.0.20",
+    "description": "A Modulus calculator by Cheetah WS. More enhancements will be added soon.",
+    "author": "I_am_Prime",
+
+    "icons": {
+        "256":"cale.png"
+    },
+
+    "browser_action":
+    {
+        "default_popup": "index.html",
+        "default_icon": "cale.png",
+        "default_title": "Modulo Calc"
+    },
+
+    "permissions": ["activeTab"],
+
+    "background":
+    {
+        "scripts": ["script.js"]
+    }
+}
